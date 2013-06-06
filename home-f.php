@@ -30,11 +30,18 @@
              <div class="div2">
              	<div class="left2">
                 	<a href=""><span>تخصص های ما</span></a>
-                	<div id="expertise1"><p>ایده نو</p></div>
+                    <div class="le"><img src="pic-home/1.jpg" /><span>ایده نو</span></div>
+                    <div class="le"><img src="pic-home/1.jpg" /><span>چاپ اخطار</span></div>
+                    <div class="le"><img src="pic-home/1.jpg" /><span>طراحی صفحات وب</span></div>
+                    <div class="le"><img src="pic-home/1.jpg" /><span>اشغال معابر</span></div>
+                    <div class="le"><img src="pic-home/1.jpg" /><span>پیشخوان</span></div>
+                   
+                    
+                	<!--<div id="expertise1"><p>ایده نو</p></div>
                     <div id="expertise2"><p>چاپ اخطار</p></div>
                     <div id="expertise3"><p>طراحی صفحات وب</p></div>
                     <div id="expertise4"><p>اشغال معابر</p></div>
-                    <div id="expertise5"><p>پیشخوان</p></div>
+                    <div id="expertise5"><p>پیشخوان</p></div>-->
                 </div>
                <div class="rigth2">
                	<a href="">
@@ -44,9 +51,29 @@
                </div>
                <div class="div2-text">jkgjkgkg</div>
              </div>
-             <div class="div3"></div>
+             <div class="div3">
+             	<div class="div3-3">
+                	<div></div>
+                    <div></div>
+                    <div></div>
+                    <div>
+                        <a href="">
+                            <span>بیشتر بدانید</span>
+                            <img src="pic-home/savoir-plus.png" />
+                        </a>
+                    </div>
+                </div><hr  color="#666666"/>
+             
+             </div>
         </div>
-        <div class="footer"></div>
+        <div class="footer">
+        	<div class="footer1"></div>
+            <div class="footer2">
+            	<div></div>
+                <div></div>
+            </div>
+            <div class="footer3"></div>
+        </div>
 	</div>
     <div class="footer-big"></div>
 </body>
