@@ -1,0 +1,154 @@
+*{
+	padding:0;
+	margin:0;	
+}
+body{ background:url(../pic-home/Untitled-1.jpg) repeat;
+	
+}
+div{border:1px dotted #666;}
+div.content{
+	width:960px;
+	height:1970px;
+	background:url(..f/pic-home/home.jpg)-478px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;	
+}
+div.header{
+	width:auto;
+	height:189px;
+}
+div.header a img{
+	margin-top:31px;
+	margin-left:11px;
+	
+}
+div.header-left{
+	width:318px;
+	height:186px;
+	float:left;
+}
+div.div-menu{
+	float:right;
+	width:595px;
+	height:186px;
+}
+ul{
+	margin-top:80px;
+list-style:none;
+}
+ul li
+{
+display:inline;
+padding-left:10px;
+padding-right:10px;
+float:left;
+}
+ul li a{
+text-decoration:none;
+color:#052705;
+}
+ul li:hover{
+	background:url(../pic-home/7.jpg);
+}
+ul li a:hover{
+color:#FFF;
+}
+div.slider-big{
+	width:100%;
+	height:490px;
+	position:absolute;
+	top:191px;
+	background:url(../pic-home/50.jpg) repeat;
+	z-index:-1;
+
+}
+div.slider{
+	width:auto;
+	height:530px;
+}
+div.mainpanel{
+	width:auto;
+	height:1052px;
+}
+div.div1{
+	width:auto;
+	height:251px;
+}
+div.div2{
+	height:256px;
+	padding:40px;
+}
+div.left2{
+	float:left;
+	width:615px;
+	height:170px;
+	position:absolute;
+}
+div.left2 span{
+	position:absolute;
+	margin-left:490px;
+}
+div.left2 div{
+	width:28px;
+	height:29px;
+	float:left;
+	margin:40px;
+	margin-top:50px;
+	color:#0C0;
+}
+div#expertise1{
+	background:url(../pic-home/sprite-expertises.png) 8px 0 no-repeat transparent;
+}
+div#expertise2{
+	background:url(../pic-home/sprite-expertises.png) -19px 0 no-repeat transparent;
+}
+div#expertise3{
+	background:url(../pic-home/sprite-expertises.png) -47px 0 no-repeat transparent;
+}
+div#expertise4{
+	background:url(../pic-home/sprite-expertises.png) -77px 0 no-repeat transparent;
+	width:22px !important;
+}
+div#expertise5{
+	background:url(../pic-home/sprite-expertises.png) -100px 0 no-repeat transparent;
+}
+div.left2 p{
+	position:relative;
+	margin-top:50px;
+}
+div.rigth2{
+	margin-left:615px;
+	height:170px;
+	
+}
+
+div.rigth2 img {
+	margin-top:125px;
+	margin-left:10px;
+	
+}
+div.rigth2 span{
+	margin-left:145px;
+}
+div.div2-text{
+	width:auto;
+	height:60px;
+	padding-top:30px;
+}
+div.div3{
+	width:auto;
+	height:461px;
+}
+div.footer{
+	width:auto;
+	height:190px;
+}
+div.footer-big{
+	width:100%;
+	background:url(../pic-home/7.jpg) repeat;
+	position:absolute;
+	height:192px;
+	top:1778px;
+	z-index:-1;
+}
