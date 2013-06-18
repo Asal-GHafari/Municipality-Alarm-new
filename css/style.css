@@ -5,18 +5,18 @@
 body{
 	background:url(../pic-home/Untitled-1.jpg) repeat;
 }
-div{ border:1px dotted #666; }
+div{ border:0px dotted #666; }
 div.content{
 	width:960px;
 	height:1970px;
-	background:url(../pic-home/home.jpg)-478px;
+	background:url(f../pic-home/home.jpg)-478px;
 	position:relative;
 	margin-left:auto;
 	margin-right:auto;
-	color:#0ddfc9;		
+	color:#BE152D;		
 }
 a{
-	color:#0ddfc9;
+	color:#BE152D;
 	text-decoration:none;	
 }
 div.header{
@@ -53,7 +53,7 @@ ul li a{
 	text-decoration:none;
 }
 ul li:hover{
-	background:url(../pic-home/523.jpg);
+	background:url(../pic-home/fond-slider.jpg);
 }
 ul li a:hover{
 	color:#FFF;
@@ -63,7 +63,7 @@ div.slider-big{
 	height:490px;
 	position:absolute;
 	top:191px;
-	background:url(../pic-home/523.jpg) repeat;
+	background:url(../pic-home/fond-slider.jpg) repeat;
 	z-index:-1;
 }
 div.slider{
@@ -91,14 +91,15 @@ div.left2{
 	padding: 43px 0px;
 	font:tooltip ;
 	font-size:13px;
+	text-align:right;
 }
+
 div.left2 div{
 	width:29px;
 	height:29px;
 	float:left;
 	margin:40px;
 	margin-top:50px;
-	border:2px solid #006;
 	position:;
 }
 div.left2 div.le{
@@ -106,54 +107,16 @@ div.left2 div.le{
 	height:102px;
 	float:left;
 	margin: 43px 0px 24px;
-	border:2px solid #006;
+	text-align:center;
 }
 div.left2 div img{
 	margin:3px 42px;
+	
 }
 div.left2 div span{
-	margin-top:10px;
-	/*top:17px;
-	left:5px;
-	right:5px;
-	position:relative;*/
-}
-/*div#expertise1{
-	background:url(../pic-home/new.jpg) 9px 0 no-repeat transparent;
-}
-div#expertise1:hover{
-	background:url(../pic-home/1.jpg) 7px -2px no-repeat transparent;
-}
-div#expertise2{
-	background:url(../pic-home/new.jpg) -19px 0 no-repeat transparent;
-}
-div#expertise2:hover{
-	background:url(../pic-home/new.jpg) -19px -29px no-repeat transparent;
-}
-div#expertise3{
-	background:url(../pic-home/new.jpg) -48px 0 no-repeat transparent;
-}
-div#expertise3:hover{
-	background:url(../pic-home/new.jpg) -48px -30px no-repeat transparent;
-}
-div#expertise4{
-	background:url(../pic-home/new.jpg) -77px 0 no-repeat transparent;
-	width:22px !important;
-}
-div#expertise4:hover{
-	background:url(../pic-home/new.jpg) -77px -28px no-repeat transparent;
-}
-div#expertise5{
-	background:url(../pic-home/new.jpg) -100px 0 no-repeat transparent;
-}
-div#expertise5:hover{
-	background:url(../pic-home/new.jpg) -100px -31px no-repeat transparent;
-}
-*/
-div.left2 p{
 	position:relative;
-	margin-top:50px;
-	word-spacing:2px;
+	top:30px;
+
 }
 div.rigth2{
 	margin-left:639px;
@@ -166,38 +129,49 @@ div.rigth2 img {
 	
 }
 div.rigth2 span{
-	margin-left:145px;
+	margin-left:113px;
 }
 div.div2-text{
 	width:auto;
 	height:60px;
 	padding:10px;
+	text-align:right;
 	
 }
+div.div2-text p{
+	position:relative;
+	right:230px;	
+	}
 div.div3{
 	width:auto;
 	height:461px;
 	border-top:2px groove #999;
 }
 div.div3 div.div3-3{
-	width:872px;
+	width:auto;
 	height:173px;
 	margin-top:56px;
 	padding:40px;
 	margin-bottom:51px;
 }
-
+div.div3 div.div3-3 a{
+	position:absolute;
+	margin-top:0;
+	margin-left:571px;
+}
 div.div3 div.div3-3 div{
 	margin-top:47px;
 	float:left;
 	width:196px;
 	height:130px;
 	margin-right:20px;
+	text-align:right;
+	background-color:
 }
 div.div3 div.div3-3 div a{
 	position:relative;
-	top:50px;
-	margin-left:107px;
+	top:55px;
+	margin-left:55px;
 }
 div.footer{
 	width:auto;
@@ -222,9 +196,21 @@ div.footer div.footer3{
 }
 div.footer-big{
 	width:100%;
-	background:url(../pic-home/523.jpg) repeat;
+	background:url(../pic-home/fond-slider.jpg) repeat;
 	position:absolute;
 	height:192px;
 	top:1778px;
 	z-index:-1;
+}
+.a{
+	color:#6D6E76;
+}
+.a span{
+	border-bottom:1px dashed;
+	border-color:#6D6E76;
+}
+.a span:hover{
+	border-bottom:1px solid;
+	border-color:#BE152D;
+	color:#BE152D;
 }
