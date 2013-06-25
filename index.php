@@ -19,6 +19,6 @@
 </head>
 
 <body>
-<a href="home-f.php"> <div></div></a>
+<a href="home.php"> <div></div></a>
 </body>
 </html>

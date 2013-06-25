@@ -9,20 +9,14 @@
 <body>
 	<div class="slider-big"></div>
 	<div class="content">
+    	<?php include("php/header.php")?>
 		<div class="header">
         	<div class="header-left">
             	<a href="home-f.php">
                 	<img src="pic-home/mashhad.gif" />
                 </a>
         	</div>
-            <div class="div-menu">
-                <ul>
-                    <li><a href="">صفحه اصلی</a></li>
-                    <li><a href="">ارتباط با ما</a></li>
-                    <li><a href="">ارتباط با ما</a></li>
-                    <li><a href="">ارتباط با ما</a></li>
-                </ul>
-            </div>
+            <?php include("php/menu.php")?>
         </div>
         <div class="slider"></div>
         <div class="mainpanel">

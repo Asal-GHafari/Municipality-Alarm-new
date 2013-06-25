@@ -1,0 +1,18 @@
+@font-face
+{
+font-family: myFirstFont;
+src: url(Larissa.woff);
+}
+
+@font-face
+{
+font-family: myFirstFont;
+src: url(Larissa.woff);;
+font-weight:bold;
+}
+
+div.slider h1
+{
+font-family:Larissa;
+font-size:72px;
+}
