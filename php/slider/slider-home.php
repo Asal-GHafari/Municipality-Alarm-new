@@ -1,5 +1,5 @@
 <h1>WEB DEVELOPER</h1>
-<table cellpadding="6" cellpadding="5" hspace="6" border="2">
+<table border="0">
  <tr>
  	<td><label>name</label></td>
     <td>Farzane GHafari</td>
