@@ -25,3 +25,4 @@
 #### step2(26/1/2013) Monday, May 27, 2013
 
 * Add Information to Slider
+* Work with photoshap
