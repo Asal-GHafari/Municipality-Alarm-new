@@ -25,7 +25,7 @@
 #### step2(27/1/2013) Thursday, June 27, 2013
 
 * Add Information to Slider
-* Work with photoshap
+* Work with photoshop
 
 ======================
 
