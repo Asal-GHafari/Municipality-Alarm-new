@@ -1,28 +1,23 @@
-##Personal Website</br>
+Personal Website
+======================
+
+Farzaneh GHafari Project Manager
+
+======================
+TECHNOLOGY
 
 
-* Farzaneh GHafari Project Manager
-
-## TECHNOLOGY
-
-* [HTML5 ]</br>
-* [CSS3]</br>
-* [1Styles]</br>
-* [JavaScript]</br>
-* [jQuery.js]</br>
-* [PHP]</br>
+HTML5
+CSS3
+1Styles
+JavaScript
+jQuery.js
+PHP
 
 ======================
 
-#### step1(26/1/2013) Wednesday, June 26, 2013
+(26/1/2013) Wednesday - 2013 26 June
 
-* Add Technology php.</br>
-* Add pages.</br>
-* Better codding.
-
-======================
-
-#### step2(26/1/2013) Monday, May 27, 2013
-
-* Add Information to Slider
-* Work with photoshap
+Add Technology php.</br>
+Add pages.</br>
+Better codding.

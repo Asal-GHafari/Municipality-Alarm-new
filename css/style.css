@@ -9,7 +9,7 @@ div{ border:1px dotted #666; }
 div.content{
 	width:960px;
 	height:1970px;
-	background:url(.h./pic-home/home.jpg)-478px;
+	background:url(../pic-home/home.jpg)-478px;
 	position:relative;
 	margin-left:auto;
 	margin-right:auto;
@@ -77,6 +77,13 @@ div.slider h1{
 	font-size:96px;
 	
 }
+div.slider img#phone1
+{
+	position:relative;
+	margin-left:16px;
+	margin-top:-321px;
+	z-index:0;
+	}
 div.slider table{
 	width:100px;
 	position:relative;
