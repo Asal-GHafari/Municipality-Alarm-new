@@ -1,23 +1,27 @@
 ##Personal Website</br>
+* Introducing Myself projects.
+* My specialties.
+* New Ideas.
 
+======================
+##Project Manager
+* Farzaneh GHafari
 
-* Farzaneh GHafari Project Manager
-
+======================
 ## TECHNOLOGY
-
-* [HTML5 ]</br>
-* [CSS3]</br>
-* [1Styles]</br>
-* [JavaScript]</br>
-* [jQuery.js]</br>
-* [PHP]</br>
+* [HTML5 ]
+* [CSS3]
+* [1Styles]
+* [JavaScript]
+* [jQuery.js]
+* [PHP]
 
 ======================
 
 #### step1(26/1/2013) Wednesday, June 26, 2013
 
-* Add Technology php.</br>
-* Add pages.</br>
+* Add Technology php.
+* Add pages.
 * Better codding.
 
 ======================
