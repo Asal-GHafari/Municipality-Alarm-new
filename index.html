@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+*{
+	padding:0;
+	margin:0;
+
+}
+body{
+	z-index:-1;
+}
+@font-face {
+font-family: 'Tangerine';
+src: url('Municipality-Alarm-new/font/Parisienne-Regular2.eof');
+src: url('Municipality-Alarm-new/font/Parisienne-Regular2?#iefix') format('embedded-opentype'),
+ url('Municipality-Alarm-new/font/Parisienne-Regular2.woff') format('woff'),
+ url('Municipality-Alarm-new/font/Parisienne-Regular2.ttf') format('truetype'),
+ url('Municipality-Alarm-new/font/Parisienne-Regular2.svg#ParisienneRegular2') format('svg');
+font-weight: normal;
+font-style: normal;
+
+}
+	div.main{
+		width:auto;
+		height:601px;
+		position:absolute;
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+		margin:auto;
+		z-index:1;
+		background:url(Municipality-Alarm-new/pic-home/annecy.jpg) no-repeat;
+		border:10px solid #FFF;
+
+	}
+
+	 div{
+		
+		text-align:center;
+		font-family : Tangerine;
+		font-size : 60px;
+		-webkit-font-smoothing : antialiased;
+		
+	}
+		
+	div.triangle{
+	float:right;
+	right:0;
+	transform:rotate(180deg);
+	-webkit-transform:rotate(120deg); 
+	-moz-transform:rotate(180deg); 
+	-ms-transform:rotate(180deg); 
+	-o-transform:rotate(180deg);
+	width: 0; height: 0;
+	border-left: 443px solid;
+	border-right: 0 solid #FFF;
+	border-top:0.6px solid #FFF;
+	border-bottom: 311px solid #FFF;
+	position:relative;
+	top:-31px;
+	z-index:-1;
+	opacity:0.5;
+	left:-868px;
+	}
+	div a{
+		position:relative;
+		left:-193px;
+		top:177px;
+		text-decoration:none;
+		color:#FC0732;
+		z-index:1;	
+	}
+	div.triangle:hover{
+		opacity:0.8;	
+	}
+
+
+</style>
+</head>
+
+<body>
+
+	<div class="main">
+		<a href="Municipality-Alarm-new/home.php">GHafari <br/><br/> Farzane</a>
+		<div class="triangle" id="cent"></div>
+    </div>
+</body>
+</html>
