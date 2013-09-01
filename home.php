@@ -11,7 +11,9 @@
 </head>
 
 <body>
-	<div class="slider-big"></div>
+	<div class="slider-big">
+    	<?PHP include("php/slider/animate-slider.php"); ?>
+    </div>
 	<div class="content">
 		<?php include("php/header.php") ?>
         <div class="slider"><?PHP include("php/slider/slider-home.php"); ?></div>

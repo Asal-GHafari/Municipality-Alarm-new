@@ -99,7 +99,7 @@ div.slider-big{
 div.slider{
 	width:auto;
 	height:530px;
-	color:#B00000     ;
+	color:#B00000 ;
 }
 div.slider h1{
 	margin-left:50px;
@@ -111,14 +111,14 @@ div.slider h1{
 	z-index:0;
 	
 }
-div.slider img#phone1
+div.slider-big img#phone1
 {
 	position:relative;
 	margin-left:16px;
 	margin-top:-321px;
 	z-index:0;
 	}
-div.slider table{
+div.slider-big table{
 	width:100px;
 	position:relative;
 	top:-412px;
@@ -136,10 +136,10 @@ div.slider table{
 	
 	
 }
-div.slider table tr td:nth-child(even){
+div.slider-big table tr td:nth-child(even){
 	text-align:right;
 }
-div.slider table tr:hover{
+div.slider-big table tr:hover{
 	color:#FF4242;
 }
 div.mainpanel{
@@ -301,35 +301,38 @@ div.footer-big{
 img.mobi-red{
 	z-index:2;
 	position:relative;
-	top:-148px;
+	left:500px;
+	opacity:0;
+	animation:mymove 5s linear 2s 1 alternate;	
+	-webkit-animation:mymove 5s linear 2s 1 alternate;	
 	
-	/*animation:mymove 2s;
-	animation-delay:2s;
-	-webkit-animation:mymove 2s ;
-	-webkit-animation-delay:2s;*/
-	
-	
+}
+img.mobi-red:after{
+	opacity:1;
 }
 @keyframes mymove
 {
-from {left:0px;}
-to {left:100px;}
+0%{opacity:0}	
+20%{left:-300px;opacity:0}
+100% {left:500px;opacity:1}
 
 }
 @-webkit-keyframes mymove
 {
-from {left:-548px;}
-to {left:20px;}
+0%{opacity:0}	
+20% {left:-300px;opacity:0}
+100% {left:500px;opacity:1}
 }
+
+
 img.mobi-with{
 	z-index:1;
 	position:relative;
-	top:-104px;
-	animation:mymovee 2s;
-	animation-delay:2s;
-	-webkit-animation:mymovee 2s ;
-	-webkit-animation-delay:2s;
-	left:-170px;
+	animation:mymovee 5s linear 2s 1 alternate;	
+	-webkit-animation:mymovee 5s linear 2s 1 alternate;	
+	margin-left:981px;
+		
+
 }
 @keyframes mymovee
 {
